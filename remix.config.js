@@ -5,6 +5,7 @@ module.exports = {
   appDirectory: "app",
   assetsBuildDirectory: "public/static",
   publicPath: "/static/",
-  serverBuildDirectory: "server/build",
+  serverBuildPath: "server/build/index.js",
   devServerPort: 8002,
+  serverModuleFormat: "cjs",
 };

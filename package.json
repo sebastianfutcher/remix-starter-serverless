@@ -12,28 +12,48 @@
     "deploy": "sls deploy"
   },
   "dependencies": {
-    "@remix-run/architect": "^1.1.1",
-    "@remix-run/react": "^1.1.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "remix": "^1.1.1"
+    "@remix-run/architect": "^2.16.8",
+    "@remix-run/express": "*",
+    "@remix-run/node": "*",
+    "@remix-run/react": "*",
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "isbot": "^4.1.0",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.1.1",
-    "@remix-run/serve": "^1.1.1",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
-    "aws-sdk": "^2.1048.0",
-    "esbuild": "^0.14.9",
-    "patch-package": "^6.4.7",
-    "rimraf": "^3.0.2",
-    "serverless": "^2.70.0",
-    "serverless-esbuild": "^1.23.2",
-    "serverless-s3-sync": "^1.17.3",
-    "typescript": "^4.1.2"
+    "@remix-run/dev": "*",
+    "@remix-run/serve": "^2.16.8",
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.20",
+    "@types/morgan": "^1.9.9",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.38.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.38",
+    "serverless": "^3.40.0",
+    "serverless-esbuild": "^1.55.1",
+    "serverless-s3-sync": "^3.4.0",
+    "tailwindcss": "^3.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.0.0",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=20.0.0"
   },
   "sideEffects": false
 }
